@@ -1,0 +1,19 @@
+/* CSS code */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.menu-bar {
+    background-image: -moz-linear-gradient(-90deg, #ffb3b3, #ff6f69);
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+    color: white;
+    font-weight: 500;
+
+}
