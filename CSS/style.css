@@ -38,7 +38,7 @@ a.nav-link:hover {
 }
 
 .jumbotron{
-   background: url('/Images/bckimg.jpg');
+   background: url('../Images/bckimg.jpg');
    background-position-x: center;
    background-position-y: center;
 }
