@@ -7,7 +7,10 @@
 
 
 .container-fluid {
-    background-color:#ff6f69;   
+    height: 100px;
+    border-radius: 2px;
+    background-color:#f19009;   
+    
 }
 
 a.navbar-brand {
@@ -18,9 +21,43 @@ a.navbar-brand {
     font-weight: 700;
 }
 a.nav-link {
-    font: 900;
+    font: 600;
     font-size: 30px;
     margin: 3px;
     color: #8a4f7d;
     font-weight: 700;
 }
+a.navbar-brand:hover {
+    font-weight: 700;
+    border-bottom: #9bccff solid;
+}
+
+a.nav-link:hover {
+    font-weight: 700;
+    border-bottom: #9bccff solid;
+}
+
+.jumbotron{
+   background: url('/Images/bckimg.jpeg');
+   background-position-x: center;
+   background-position-y: center;
+}
+p.lead {
+    font: 900;
+    font-size: 30px;
+    margin: 3px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+h1.display-1 {
+    font: 900;
+    font-size: 5rem;
+    text-shadow: #8a4f7d;
+    margin: 3px;
+    color: white;
+    font-weight: 300;
+    line-height: 1.2;
+}
+/* @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  } */
