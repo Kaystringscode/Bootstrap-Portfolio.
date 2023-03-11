@@ -6,14 +6,21 @@
 }
 
 
-.menu-bar {
-    background-image: -moz-linear-gradient(-90deg, #ffb3b3, #ff6f69);
+.container-fluid {
+    background-color:#ff6f69;   
 }
 
-.nav-link {
-    font-size: 16px;
+a.navbar-brand {
+    font: 900;
+    font-size: 30px;
     margin: 3px;
     color: white;
-    font-weight: 500;
-
+    font-weight: 700;
+}
+a.nav-link {
+    font: 900;
+    font-size: 30px;
+    margin: 3px;
+    color: #8a4f7d;
+    font-weight: 700;
 }
